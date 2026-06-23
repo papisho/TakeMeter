@@ -19,6 +19,7 @@ TakeMeter classifies r/travel posts into three quality levels based on how much 
 TakeMeter/
 ├── planning.md                  # Label design, data collection plan, evaluation metrics
 └── README.md                    # This file
+└── app.py                       
 evaluation metrics
 ├── 200_reddit_post.csv          # Labeled dataset (200 examples)
 ├── confusion_matrix.png         # Fine-tuned model confusion matrix
