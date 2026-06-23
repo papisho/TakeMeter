@@ -124,9 +124,9 @@ The fine-tuned model performed 13.3% below the zero-shot baseline. This is addre
 | **`partial`** | 0 | 10 | 0 |
 | **`detailed`** | 0 | 2 | 8 |
 
-![Confusion Matrix](confusionn%20matrix.png)
-
 The model never confuses `vague` and `detailed` directly. All errors involve adjacent label boundaries. The most common error direction is `detailed` predicted as `partial`, suggesting the model sometimes underestimates post quality.
+
+![Confusion Matrix](./evaluation%20metrics/confusionn%20matrix.png)
 
 ### Success Criteria Assessment
 
